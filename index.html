@@ -3,38 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catálogo de Produtos</title>
     <style>
-        .city {
-    background-color: rgb(145, 117, 117);
-    color: white;
-    padding: 10px;
-}
-table, th, td {
-  border:1px solid black;
-}
-     
+        #Um {
+          background-color: #000000;
+          color: rgb(255, 255, 255);
+          font-size: 24px;
+          font-weight: bold;
+        }
+
+        #Dois {
+          background-color: #858585;
+          color: rgb(255, 255, 255);
+        }
+
+        td {
+            background-color: #ecebebb7;
+        }
+
+        th, td {
+          text-align: left;
+          padding: 8px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }  
+
+        th {
+          text-decoration: none;
+        }
     </style>
 </head>
 <body>
-
-    <h1 class="city">Catálogo de Produtos - Desenvolvimento WEB I</h1>
     <table style="width:100%">
-        <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+        <tr id="Um">
+            <th colspan="3">Catálogo de Produtos - Desenvolvimento WEB 1</th>
+        </tr>
+        <tr id="Dois">
+            <th style="width:70%">Produtos</th>
+            <th>Categorias</th>
+            <th>Preços</th>
         </tr>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+            <td style="text-decoration: underline">Faça Você Mesmo: Comida Japonesa</td>
+            <td>DVD</td>
+            <td>R$ 55,00</td>
         </tr>
         <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
+            <td style="text-decoration: underline">Faça Você Mesmo: Comida Mexicana</td>
+            <td>DVD</td>
+            <td>R$ 42,00</td>
         </tr>
-      </table>
+        <tr>
+            <td style="text-decoration: underline">Faça Você Mesmo: Comida Árabe</td>
+            <td>VHS</td>
+            <td>R$ 39,00</td>
+          </tr>
+      </table>      
 </body>
 </html>
